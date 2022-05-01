@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>グッズ登録ページ</title>
+        <link rel="stylesheet" href="register_page.css">
+    </head>
+    <body>
+        <header>
+            <div class="nav-container">
+                <div class="navigationbar-logo">
+                    <p class="logo">MGC</p>
+                </div>
+                <div class="header-title-area">
+                    <h1 class="title-name">My Goods Collection</h1>
+                </div>
+            </div>
+        </header>
+            <div class="container">
+                <form>
+                    <div>
+                        <label>商品名</label>
+                            <input type="text" name="name">
+                    </div>
+                    <div>
+                        <label>購入状況</label>
+                            <input type="radio" name="status" value="purchased"><label>購入済み</label>
+                            <input type="radio" name="status" value="no_purchasede"><label>未購入</label>
+                    </div>
+                    <div>
+                        <label>タグ</label>
+                            <input type="radio" name="goods_tags"><label>ミッキー</label>
+                    </div>
+                    <div>
+                        <label>テキスト</label>
+                            <textarea name="description"></textarea>
+                    </div>
+                    <div>
+                        <label>商品画像</label>
+                            <input type="file" name="image">
+                    </div>
+                    <div>
+                        <input type=submit name=送信>
+                    </div>
+                </form>
+            </div>
+        <footer>
+            
+        </footer>
+    </body>
+</html>
